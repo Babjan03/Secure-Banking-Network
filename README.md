@@ -84,7 +84,3 @@ SecureBankingNetwork/
 
 ---
 
-## 🎓 Academic Viva Reference
-- **Why AES-GCM over AES-CBC?** AES-GCM guarantees both **confidentiality** and **authenticity** (AEAD) with an authentication tag, preventing active bit-flipping attacks.
-- **Why Length-Prefixed Framing over TCP?** TCP is an unstructured stream of bytes without message boundaries. The 4-byte header guarantees atomic receipt of full frames.
-- **Can CRC protect against hackers?** No. CRC only detects accidental physical noise. Malicious tampering requires cryptographic MAC/AEAD tags.
